@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rajendra Acharya",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "role": "Admin",
+      "avatar": ""
+    }
+  ],
+  "tasks": [
+    {
+      "id": 2,
+      "title": "Build Dashboard",
+      "description": "Create dashboard layout",
+      "status": "Completed",
+      "createdAt": "2026-07-02"
+    },
+    {
+      "title": "taskflow assessment",
+      "description": "exdera assessment before 6pm",
+      "status": "Pending",
+      "createdAt": "2026-07-02",
+      "id": 3
+    }
+  ]
+}
