@@ -13,8 +13,8 @@ function Navbar() {
         <header className="flex h-16 items-center justify-between border-b bg-background px-4 md:px-6">
             <div className="flex items-center gap-3">
                 <MobileSidebar />
-                <h2 className="text-xl font-semibold">
-                    Dashboard
+                <h2 className="text-xl font-semibold text-blue-400">
+                    TaskFlow
                 </h2>
             </div>
 
@@ -27,7 +27,7 @@ function Navbar() {
                 </Avatar>
 
 
-                <div>
+                {/* <div>
                     <p className="font-medium">
                         {user?.name}
                     </p>
@@ -35,7 +35,7 @@ function Navbar() {
                     <p className="text-sm text-gray-500">
                         {user?.role}
                     </p>
-                </div>
+                </div> */}
             </div>
         </header>
     );

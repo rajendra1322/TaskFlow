@@ -14,6 +14,8 @@ import { useNavigate } from "react-router-dom";
 import api from "@/services/api";
 import { Navigate } from "react-router-dom";
 
+
+
 function Login() {
     const navigate = useNavigate();
   const {
@@ -36,8 +38,8 @@ function Login() {
       toast.error("Invalid email or password");
       return;
     }
-
-    localStorage.setItem("token", "mock-jwt-token");
+    const MOCK_TOKEN = import.meta.env.VITE_MOCK_JWT_TOKEN;
+    localStorage.setItem("token", MOCK_TOKEN);
 
     localStorage.setItem(
       "user",
