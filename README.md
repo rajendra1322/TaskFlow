@@ -225,8 +225,4 @@ https://taskflow-64aa.onrender.com
 
 
 
-##  License
 
-This project is created for learning and assessment purposes.
-
----
