@@ -134,7 +134,7 @@ http://localhost:3000
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the project root.
 
